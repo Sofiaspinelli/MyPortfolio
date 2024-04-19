@@ -4,6 +4,8 @@ import About from "./components/About/About";
 import Projets from "./components/Projets/Projets";
 import Skills from "./components/Skills/Skills";
 import Certificates from "./components/Certificates/Certificates";
+import Whatsapp from "./components/Messages/Whatssap"
+import Contact from "./components/Contact/Contact"
 import "./App.css";
 
 
@@ -17,8 +19,8 @@ const App = () => {
         <Projets/>
         <Skills/>
         <Certificates/>
-   {/*      <Footer/>
-        <Whatsapp/> */}
+        <Contact/> 
+        <Whatsapp/> 
       </main>
     </div>
   )

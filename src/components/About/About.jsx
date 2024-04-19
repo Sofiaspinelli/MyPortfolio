@@ -17,8 +17,8 @@ const About = () => {
             <p> y vivo en Buenos Aires, Argentina.</p>
             <p>
               Me considero una persona curiosa, responsable y alegre. Me
-              apasiona el hecho de crear cosas excelentes con lineas de codigo,
-              soy una persona a la cual le gusta estar en constante aprendizaje.
+              apasiona el hecho de crear cosas excelentes con líneas de código,
+              soy una persona a la cual le gusta estar en constante aprendizaje. Actualmente estoy estudiando inglés en Cambridge. Ademas de programadora y tester QA, soy una obsesionada con la limpieza y amante de los perritos!
             </p>
           </div>
           <a href={CV} download="" className="btn">

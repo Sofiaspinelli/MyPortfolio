@@ -16,7 +16,8 @@ const Home = () => {
           <h1>
             Sofia Spinelli
           </h1>
-          <h2 className="banner__job">Full Stack Developer</h2>
+          <h2 className="banner__job">Full Stack Developer & Tester QA</h2>
+          
           <div className="home__button">
           <Link 
             to='about' 

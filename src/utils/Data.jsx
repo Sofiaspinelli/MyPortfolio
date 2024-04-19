@@ -297,26 +297,26 @@ export const certificates = [
 export const networks = [
   {
     id: 1,
-    path: 'mailto:sofiaspinelli17@gmail.com',
-    title: 'Enviar un correo electrónico a Magali Sofia Spinelli',
+    path: 'mailito: sofiaspinelli17@gmail.com',
+    title: 'Enviar un correo electrónico a Sofia Spinelli',
     icon: <IoIosMail/>,
   },
   {
     id: 2,
     path: 'tel:+5491165450841',
-    title: 'Llamar por teléfono a Magali Sofia Spinelli',
+    title: 'Llamar por teléfono a Sofia Spinelli',
     icon: <FaPhoneVolume/>,
   },
   {
     id: 3,
-    path: 'https://www.linkedin.com/in/sofiaspinelli',
-    title: 'Visitar el perfil de Magali Sofia Spinelli en Linkedin',
+    path: 'https://www.linkedin.com/in/sofia-spinelli/',
+    title: 'Visitar el perfil de Sofia Spinelli en Linkedin',
     icon: <FaLinkedinIn/>,
   },
   {
     id: 4,
     path: 'https://api.whatsapp.com/send?phone=5491165450841',
-    title: 'Enviale un whatsapp a Magali Sofia Spinelli',
+    title: 'Enviale un whatsapp a Sofia Spinelli',
     icon: <IoLogoWhatsapp/>,
   },
   {

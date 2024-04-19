@@ -2,9 +2,9 @@ import Work1 from '../assets/img/project-1.png';
 import Work2 from '../assets/img/project-2.png';
 import Work3 from '../assets/img/project-3.png';
 import Work4 from '../assets/img/project-4.png';
-import Work5 from '../assets/img/project-5.png';
+/* import Work5 from '../assets/img/project-5.png'; */
 
-import Certificate1 from '../assets/img/certificado_digitalhouse.png';
+import Certificate1 from '../assets/img/certificado-digital.jpg';
 import Certificate2 from '../assets/img/Certificado_marketing.jpg';
 import Certificate3 from '../assets/img/certificado-coder.png';
 
@@ -24,7 +24,7 @@ import Theme10 from '../assets/theme/yellow.png'; */
 import { FaHtml5, FaCss3Alt, FaSass, FaReact, FaNodeJs, FaExternalLinkAlt,  FaLinkedinIn, FaGithub, FaCss3, FaBootstrap } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoFirebase } from "react-icons/io5";
 import { TbBrandReactNative } from "react-icons/tb";
-import { SiMongodb, SiExpress, SiPostman, SiAstro, SiHandlebarsdotjs, SiTypescript, SiTailwindcss  } from "react-icons/si";
+import { SiMongodb, SiExpress, SiPostman, SiAstro, SiHandlebarsdotjs, SiTypescript, SiTailwindcss, SiDbeaver, SiVite  } from "react-icons/si";
 import { IoIosMail, IoLogoWhatsapp } from "react-icons/io";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { TbBrandVite } from "react-icons/tb";
@@ -162,7 +162,7 @@ export const projects = [
       }
     ],
 },
-{
+/* {
   id: 5,
   img: Work5,
   title: 'Beer Bar',
@@ -188,7 +188,7 @@ export const projects = [
       path: ''
     }
   ],
-},
+}, */
   
 ]
 
@@ -216,52 +216,58 @@ export const skills = [
       title: 'JavaScript',
       icon: <IoLogoJavascript className='skill__icon'/>
     },
-  
     {
       id: 5,
+      title: 'Tailwind Css',
+      icon: <SiTailwindcss className='skill__icon'/>
+    },
+  
+    {
+      id: 6,
       title: 'React Js',
       icon: <FaReact className='skill__icon'/>
     },
   
     {
-      id: 6,
-      title: 'React Native',
-      icon: <TbBrandReactNative className='skill__icon'/>
+      id: 7,
+      title: 'Typescript',
+      icon: <SiTypescript className='skill__icon'/>
     },
   
     {
-      id: 7,
+      id: 8,
       title: 'Node Js',
       icon: <FaNodeJs className='skill__icon'/>
     },
   
     {
-      id: 8,
+      id: 9,
       title: 'Express',
       icon: <SiExpress className='skill__icon'/>
     },
-    {
-      id: 9,
-      title: 'Handlebars',
-      icon: <SiHandlebarsdotjs className='skill__icon'/>
-    },
+    
   
     {
       id: 10,
-      title: 'Mongo DB',
-      icon: <SiMongodb className='skill__icon'/>
+      title: 'My Sql',
+      icon: <GrMysql className='skill__icon'/>
     },
   
     {
       id: 11,
-      title: 'Firebase',
-      icon: <IoLogoFirebase className='skill__icon'/>
+      title: 'Dbeaver',
+      icon: <SiDbeaver className='skill__icon'/>
     },
   
     {
       id: 12,
       title: 'Postman',
       icon: <SiPostman className='skill__icon'/>
+    },
+    {
+      id: 13,
+      title: 'Vite js',
+      icon: <SiVite className='skill__icon'/>
     },
   
   

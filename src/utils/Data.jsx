@@ -1,7 +1,8 @@
-import Work1 from '../assets/img/project-1.jpeg';
-import Work2 from '../assets/img/project-2.jpeg';
-import Work3 from '../assets/img/project-3.jpeg';
-import Work4 from '../assets/img/project-4.jpeg';
+import Work1 from '../assets/img/project-1.png';
+import Work2 from '../assets/img/project-2.png';
+import Work3 from '../assets/img/project-3.png';
+import Work4 from '../assets/img/project-4.png';
+import Work5 from '../assets/img/project-5.png';
 
 import Certificate1 from '../assets/img/certificado_digitalhouse.png';
 import Certificate2 from '../assets/img/Certificado_marketing.jpg';
@@ -20,12 +21,15 @@ import Theme9 from '../assets/theme/green.png';
 import Theme10 from '../assets/theme/yellow.png'; */
 
 
-import { FaHtml5, FaCss3Alt, FaSass, FaReact, FaNodeJs, FaExternalLinkAlt,  FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaSass, FaReact, FaNodeJs, FaExternalLinkAlt,  FaLinkedinIn, FaGithub, FaCss3, FaBootstrap } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoFirebase } from "react-icons/io5";
 import { TbBrandReactNative } from "react-icons/tb";
-import { SiMongodb, SiExpress, SiPostman, SiAstro, SiHandlebarsdotjs  } from "react-icons/si";
+import { SiMongodb, SiExpress, SiPostman, SiAstro, SiHandlebarsdotjs, SiTypescript, SiTailwindcss  } from "react-icons/si";
 import { IoIosMail, IoLogoWhatsapp } from "react-icons/io";
 import { FaPhoneVolume } from "react-icons/fa6";
+import { TbBrandVite } from "react-icons/tb";
+
+import { GrMysql } from "react-icons/gr";
 
 
 export const links = [
@@ -60,22 +64,26 @@ export const projects = [
   {
       id: 1,
       img: Work1,
-      title: 'PentaMusic',
+      title: 'Formar Web',
       skills: [
         {type: <FaHtml5 /> },
         {type: <FaCss3Alt/> },
-        {type: <FaSass />} 
+        {type: <FaReact/> },
+        {type: <SiTypescript/> },
+        {type: <IoLogoJavascript/> },
+        
+        
       ],
       links: [
         {
           id: 1,
           icon: <FaGithub />,
-          path: 'https://github.com/magalizap/pentamusic'
+          path: 'https://github.com/FormarImpactDevs/client-fundacion-formar-web.git'
         },
         {
           id: 2,
           icon: <FaExternalLinkAlt/>,
-          path: 'https://pentamusic.vercel.app/'
+          path: 'http://fundacionformar.ar/'
         }
       ],
   
@@ -84,75 +92,103 @@ export const projects = [
   {
       id: 2,
       img: Work2,
-      title: 'MovieList',
+      title: 'Quality Travel',
       skills: [
         {type:<FaHtml5 />},
-        {type: <FaCss3Alt />},
-        {type: <IoLogoJavascript />}
+        {type: <SiTailwindcss />},
+        {type: <IoLogoJavascript />},
+        {type: <SiTypescript/> },
+        {type: <FaNodeJs />},
+        {type: <GrMysql/>}
         
       ],
       links: [
         {
           id: 1,
           icon: <FaGithub />,
-          path: 'https://github.com/magalizap/movieList'
-        },
-        {
-          id: 2,
-          icon: <FaExternalLinkAlt/>,
-          path: 'https://movielist-xi.vercel.app/'
+          path: 'https://github.com/formar-it/quality-travel.git'
         }
       ],
     },
   {
       id: 3,
       img: Work3,
-      title: 'Gilmore',
+      title: 'Gypsy Store',
       skills: [
-        {type:<FaReact />},
+        {type:<FaHtml5 />},
+        {type: <FaCss3Alt/> },
         {type: <IoLogoJavascript />},
-        {type: <IoLogoFirebase />}
+        {type: <FaSass />},
+        {type: <FaBootstrap />}
         
       ],
       links: [
         {
           id: 1,
           icon: <FaGithub />,
-          path: 'https://github.com/magalizap/gilmore'
+          path: 'https://github.com/Sofiaspinelli/gypsystore.git'
         },
         {
           id: 2,
           icon: <FaExternalLinkAlt/>,
-          path: 'https://gilmore.vercel.app/'
+          path: 'https://sofiaspinelli.github.io/gypsystore/'
+
         }
       ],
   },
-  {
-      id: 4,
-      img: Work4,
-      title: 'Matesuli',
-  
-      skills: [
-        {type:<IoLogoJavascript />},
-        {type: <FaNodeJs />},
-        {type: <SiExpress />},
-        {type: <SiMongodb />},
-        {type: <SiHandlebarsdotjs />}
-        
-      ],
-      links: [
-        {
-          id: 1,
-          icon: <FaGithub />,
-          path: 'https://github.com/magalizap/matesuli'
-        },
-        {
-          id: 2,
-          icon: <FaExternalLinkAlt/>,
-          path: 'https://matesuli-back.onrender.com/'
-        }
-      ],
-  }
+   {
+    id: 4,
+    img: Work4,
+    title: 'Utriper',
+
+    skills: [
+      {type:<FaHtml5 />},
+        {type: <SiTailwindcss />},
+        {type: <IoLogoJavascript />},
+        {type: <SiTypescript/> },
+        {type: <TbBrandVite /> },
+      
+    ],
+    links: [
+      {
+        id: 1,
+        icon: <FaGithub />,
+        path: 'https://github.com/Global-Triper/com.utriper.landing.git'
+      },
+      {
+        id: 2,
+        icon: <FaExternalLinkAlt/>,
+        path: 'https://utriper.com/operators'
+      }
+    ],
+},
+{
+  id: 5,
+  img: Work5,
+  title: 'Beer Bar',
+
+  skills: [
+    {type:<IoLogoJavascript />},
+    {type:<FaHtml5 />},
+    {type: <FaCss3Alt/> },
+    {type: <FaNodeJs />},
+    {type: <SiExpress />},
+    {type: <GrMysql/>}
+    
+  ],
+  links: [
+    {
+      id: 1,
+      icon: <FaGithub />,
+      path: 'https://github.com/Sofiaspinelli/Beerbar-Grupo-6.git'
+    },
+    {
+      id: 2,
+      icon: <FaExternalLinkAlt/>,
+      path: ''
+    }
+  ],
+},
   
 ]
 

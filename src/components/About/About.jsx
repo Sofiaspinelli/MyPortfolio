@@ -1,7 +1,7 @@
 import React from "react";
 import CV from "../../assets/pdf/SpinelliCV.pdf";
 import { FaDownload } from "react-icons/fa";
-import profile1 from "../../assets/img/profile-1.jpg";
+import profile2 from "../../assets/img/profile-2.jpg";
 import "./about.css";
 
 const About = () => {
@@ -18,7 +18,7 @@ const About = () => {
             <p>
               Me considero una persona curiosa, responsable y alegre. Me
               apasiona el hecho de crear cosas excelentes con líneas de código,
-              soy una persona a la cual le gusta estar en constante aprendizaje. Actualmente estoy estudiando inglés en Cambridge. Ademas de programadora y tester QA, soy una obsesionada con la limpieza y amante de los perritos!
+              soy una persona a la cual le gusta estar en constante aprendizaje. Actualmente estoy estudiando inglés en Cambridge. Ademas de programadora y tester QA, me gusta viajar por la Argentina, conociendo lugares nuevos y costumbres totalmente diferentes a las conocidas, soy una obsesionada con la limpieza y amante de los perritos!
             </p>
           </div>
           <a href={CV} download="" className="btn">
@@ -31,7 +31,7 @@ const About = () => {
         <div className="about__img">
           <div className="border-img">
             <img
-              src={profile1}
+              src={profile2}
               alt="img__profile2"
               className="about__profile"
             />

@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/pdf/SpinelliCV.pdf";
+import CV from "../../assets/pdf/CV-Spinelli-Sofia.pdf";
 import { FaDownload } from "react-icons/fa";
 import profile2 from "../../assets/img/profile-2.jpg";
 import "./about.css";
